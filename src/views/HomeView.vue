@@ -29,10 +29,18 @@ const links = [
             <v-img src="/steve.jpg" alt="Steve Hering" cover />
           </v-avatar>
 
-          <h1 class="text-h5 font-weight-bold mb-1">Steve Hering</h1>
-          <p class="text-caption text-primary font-weight-medium mb-4">
-            Senior Consultant, Experience Design · Slalom
-          </p>
+          <h1 class="text-h5 font-weight-bold mb-2">Steve Hering</h1>
+          <div class="d-flex flex-wrap justify-center ga-2 mb-4">
+            <v-chip size="small" color="primary" variant="tonal">
+              Senior Consultant
+            </v-chip>
+            <v-chip size="small" color="primary" variant="tonal">
+              Experience Design
+            </v-chip>
+            <v-chip size="small" color="primary" variant="tonal">
+              Slalom
+            </v-chip>
+          </div>
           <p class="text-body-2 text-medium-emphasis mb-6">
             Experience designer focused on healthcare, insurance, and logistics.
             I help teams illuminate new paths through complex problems and ship
